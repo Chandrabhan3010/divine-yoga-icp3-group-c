@@ -1,0 +1,19 @@
+head {
+    display: none;
+}
+
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #525c58;
+    text-transform: none;
+    background: #ffffff;
+    text-size-adjust: 100%;
+    font: inherit;
+    display: block;
+   
+    
+}
+
