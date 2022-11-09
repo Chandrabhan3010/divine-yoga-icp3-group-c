@@ -64,12 +64,22 @@
             color: white;
         }
 
+        #contact-img {
+            width: 300px;
+
+        }
+
+        #con-form {
+            border: 1px solid black;
+            width: 500px;
+        }
+
         /*Footer started*/
         .footer {
             padding: 70px 20px 15px;
-            
-              background-color: black;
-              color: white;
+
+            background-color: black;
+            color: white;
         }
 
         .footer-logo {
@@ -145,30 +155,31 @@
         crossorigin="anonymous"></script>
     <div class="contact-container">
 
-        <div class="sec-container">
 
-            <h2 class="text-center fs-2">Contact Us Here </h2>
-            <br><br>
+        <div class="container-head">
             <div class="row">
-                <div class="col-6">
-                    <img src="..." class="img-fluid" alt="yoga-img">
+                <div class="col-md-6">
+                    <img src="/images/treepose.jpg" class="rounded mx-auto d-block" alt="contact-img" id="contact-img">
                 </div>
-                <div class="col-6">
-
-                    <h3> Send Message</h3>
-                    <form>
-                        <input type="name" class="form-control mt-4 input-box" placeholder="Full Name"><br />
-                        <input type="email" class="form-control input-box" placeholder="Email"><br />
-                        <label for="text" class="form-label">Type your Message...</label>
-                        <textarea class="form-control input-box" rows="1" placeholder="Text"></textarea><br />
-                        <button type="button" class="btn btn-light contactus-btn" id="text"> <a href="./index.html"
-                                style="text-decoration: none; color: white;">Send</a></button>
-                        <button type="button" class="btn btn-light contactus-cancel-btn" id="text"><a
-                                href="./index.html" style="text-decoration: none; color: white;">Cancel</a></button>
-                    </form>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="container-head-txt mb-5">
+                        <h3 class="text-center"> Send Message</h3>
+                        <form id="con-form">
+                            <input type="name" class="form-control mt-4 input-box" placeholder="Full Name"><br />
+                            <input type="email" class="form-control input-box" placeholder="Email"><br />
+                            <label for="text" class="form-label">Type your Message...</label>
+                            <textarea class="form-control input-box" rows="1" placeholder="Text"></textarea><br />
+                            <button type="button" class="btn btn-light contactus-btn" id="text"> <a href="./index.html"
+                                    style="text-decoration: none; color: black;">Send</a></button>
+                            <button type="button" class="btn btn-light contactus-cancel-btn" id="text"><a
+                                    href="./index.html" style="text-decoration: none; color: black;">Cancel</a></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
+
+
     </div>
     </div>
     </div>
@@ -177,7 +188,7 @@
 
     <div class="footer">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-md-3 mb-4">
                     <a class="navbar-brand ms-md-0 ps-md-5 d-flex align-items-center mt-3">
