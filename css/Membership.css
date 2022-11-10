@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+}.subheading{
+    font-size: 50px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color:darkturquoise;
+    font-weight: 700;
+    letter-spacing:4px;
+    margin-left: 160px;
+}
+
+.container{
+    margin-top: 50px;
+    border: 2px;
+    border-radius: 2px;
+    
+}
+h1{
+    font-size:40px;
+    color:black;
+    margin-top: 250px;
+}
+p{
+    font-size: 17px;
+    color:black;
+}
+h3{
+    font-size: 25px;
+    color:white;
+}
+.glyphicon-pencil{
+    font-size: 35px;
+    color:white;
+    float:right;
+    margin-top: 20px;
+}
+.col-md-6{
+    margin-right:20px;
+}
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 1px black;
+    background: rgba(0, 0, 0, 0);
+    height: 560px;
+    
+}
+.label{
+    font-weight:normal;
+    margin-top:15px;
+    color:white;
+    font-size: 19px;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color:white;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+small{
+    font-size: 17px;
+    color: black;
+}
+input[type="radio"]{
+    margin-top:20px;
+}
+option{
+    color:gray;
+}
+.btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left:80px;
+    margin-bottom: 20px;
+    
+}
+.btn-warning{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left:80px;
+    margin-bottom: 20px;
+}
