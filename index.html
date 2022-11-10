@@ -28,9 +28,19 @@
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="#">HOME</a></li>
           <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="#">CLASSES</a></li>
-          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="#">CONTACT US</a></li>
-          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="#">ABOUT US</a></li>
-          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="#">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="./pages/contact.html">CONTACT
+              US</a></li>
+          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page" href="./pages/about-us.html">ABOUT
+              US</a></li>
+          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page"
+              href="./pages/gallery.html">GALLERY</a></li>
+
+          <li class="nav-item"><a class="nav-link active ms-4" aria-current="page">
+            <div class="icon"><i class="fa fa-lightbulb-o" aria-hidden="true" onclick="light()"></i></div>
+          </a></li>
+          
+           <li class="nav-item"><a class="nav-link active ms-4" aria-current="page">
+            <div class="icon"><i class="fa fa-moon-o" aria-hidden="true" onclick="dark()"></i></div></a</li>
 
           <!--
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle active " href="#"
@@ -51,11 +61,28 @@
   </nav>
   <!--navbar end-->
   <!--head start-->
-  <div class="head-container">
-    <div>
-      <img src="" alt="head-img">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/padmasan.jpeg" class="d-block w-100  slider-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/treepose.jpg" class="d-block w-100  slider-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/headstand.jpg" class="d-block w-100  slider-img" alt="...">
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
   <!--head end-->
 
 
