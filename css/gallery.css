@@ -1,0 +1,144 @@
+/*gallery css*/
+
+.ftco-no-pt{
+    padding-top: 0 !important;
+}
+.ftco-no-pb{
+    padding-bottom: 0 !important;
+}
+.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.heading-section{
+    position: relative;
+}
+
+.heading-section .subheading{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color:darkturquoise;
+    font-weight: 700;
+    letter-spacing:2px;
+}
+.heading-section h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Balloo 2",cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.heading-section h2 span{
+    font-weight: 400;
+}
+.heading-section.heading-section-white .subheading{
+    color: rgba(255, 255,255, 0.9);
+}
+
+.heading-section.heading-section-white h2{
+    font-size: 40px;
+    color: white;
+}
+.heading-section.heading-section-white p{
+    color: rgba(255, 255,255, 0.9);
+}
+.project{
+    position:relative;
+    width: 100;
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+}
+.project::after{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    content:"";
+    background:darkturquoise;
+    opacity:0;
+    z-index:1;
+    transition: all 0.3s ease;
+}
+.project img{
+    transform: scale(1);
+    z-index:-1;
+    transition: all 0.6s ease;
+}
+.project .text{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    padding:3em;
+    opacity:0;
+    z-index:2;
+    transition: all 0.6s ease;
+
+}
+
+.project .text span{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgba(255, 255,255, 0.9);
+}
+
+.project .text h3{
+    color: #ffff;
+    writing-mode: vertica-lr;
+    transform: rotate(180deg);
+    text-orientation: sideways;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top:0;
+    left:20px;
+    height:100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size:24px;
+    z-index:1;
+    color:black;
+    font-family:"Lora",serif;
+}
+
+.project .text h3 a {
+    color: #ffffff;
+}
+
+.project:hover::after,
+.project:focus::after {
+    opacity:0.8;
+}
+.project:hover .icon,
+.project:hover .icon{
+    top:50px;
+    opacity:1;
+}
+.project:hover img,
+.project:hover img {
+    transform: scale(1.3);
+}
+
+.project:hover .text,
+.project:hover .text{
+    opacity:1;
+    bottom:0;
+}
+
+
+
+
