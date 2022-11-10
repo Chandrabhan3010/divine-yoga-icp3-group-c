@@ -49,9 +49,9 @@ border: 1px solid  black;
     
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500px;
-    color: rgb(15, 13, 13);
+    color: rgb(27, 3, 3);
     text-align: center;
     display: block;
     margin: auto;
@@ -82,7 +82,7 @@ display: block;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color:dimgray;
+    color:rgb(201, 13, 13);
 }
 
 
