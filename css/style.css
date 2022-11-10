@@ -1,237 +1,103 @@
-/*stylesheet*/
-/*========about-us section=============*/
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-html {
-    background-color: #fff;
-    color: #555;
-    font-family: 'Lato', 'Arial' sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-}
-.about-title{
-    margin-top: 0px;
-}
-h2 {
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 0px;
-    line-height: 1.25;
-    margin-top: 10px;
-}
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " ";
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.about-box{
-    width: 350px;
-    height: 490px;
-    text-align: center;
-    background: #fff;
-    padding-bottom: 40px;
-    margin:15px 0; 
-    box-shadow:0 10px 29px 0 rgba(6, 1, 48, 0.5);
-    border-radius: 13px;
-    overflow: hidden;
-    transition: all 0.4s;
-
-}
-.about-box:hover{
-    box-shadow: 0 10px 29px 0 rgba(83, 210, 245, 10)
-}
-.about-box .about-top{
-    height: 155px;
-    padding-top: 26px;
-
-}
-.about-box .about-top h4{
-    color: #fff;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
-    
-}
- .about-box .about-sec{
-    width: 150px;
-    height: 150px;
-    margin: -17px auto 20px;
-    padding-top:25px;
-    border-radius:50%;
-    background: #fff;
-    box-shadow:0 5px 6px 0 rgba(6, 1, 48, 0.5) ;
-}
-   
-.about-box .about-sec h3{
-    font-size: 40px;
-    font-weight: 600;
-    color:#666;
-}
-.about-box ul{
-    list-style: none;
-    margin-bottom: 10px;
-    margin-top: 0px;
-
-}
-.about-box.first .about-top{
-    background-color: #09aef0;
-}
-.about-box.second .about-top{
-    background-color: #05c8eb;
-}
-.about-box.third .about-top{
-    background-color: #05c8eb;
-}
-.about-box.forth .about-top{
-    background-color: #05c8eb;
-}
-
-
-.about-box.fifth .about-top{
-    background-color: #05c8eb;
-}
-
- 
- 
- .about-sec .about-img{
-   width: 90%;
-    object-fit: cover;
-    border-radius: 49%;
-     }
-     .about-sec .about-img{
-     position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: #FFF;
-    padding: 3px;
-
-    height: 100%;
+/*head started*/
+.head-img{
+    height: fit-content;
     width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #4A47A3;
-    }
-    .social-media {
-        margin-top: 0px;
-        margin-bottom: 25px;
-    }
-    
-    .social-media a {
-        color: #4A47A3;
-        margin: 20px;
-        font-size: 30px;
-        transition: .3s linear;
-    }
-
-   .about-box.row-second{
-    margin-left: 250px;
-    margin-top: 30px;
-   }
-/*====End about-section====*/
-
-/*===Start Registration section ===*/
-.body-registration{
-    min-height: 100vh;
-    max-width: 900px;
-    align-items: center;
-    justify-content: center;
-    background:#4070f4 ;
 }
-.container-registration{
-    position: relative;
-    max-width: 900px;
-    width:100%;
-    border-radius:6px;
-    padding: 30px;
-    margin: 0 15px;
-    background-color:#fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+.slider-img{
+   
 }
-.container-registration{
-    position: relative;
-    font-size: 20px;
-    font-weight: 600;
-    color: #333;
+.carousel-item{
+    height: 600px;
 }
-.container-registration header::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 3px;
-    width: 27px;
-    border-radius: 8px;
-    background-color: #4070f4;
-}
-.container-registration form{
-    position: relative;
-    margin-top: 16px;
-    min-height: 490px;
-    background-color: #fff;
-}
-.container-registration form .detials{
-    margin-top: 30px;
-}
-.container-registration form .title{
-    display: block;
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 6px 0;
-    color: #333;
-}
-.container-registration form .fields{
+.icon{
+  
+    color: black;
+    cursor: pointer;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: right;
 }
-form .fields .input-field{
-    display: flex;
-    width: calc(100% / 3 -15px);
-    flex-direction: column;
-    margin: 4px 0;
+/*head end*/
 
-}
-.input-field label{
-    font-size: 12px;
-    font-weight: 500;
-    color: #2e2e2e;
-}
-.input-field input{
-    outline: none;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #333;
-    border: 1px solid #aaa;
-    padding:  0 15px;
-    height: 42px;
-    margin: 8px 0;
-}
-.input-field input:is(:focus, :valid){
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
 
-}
-.input-field input[type="date"]{
-    color: #70707070;
-}
-.input-field input[type="date"]:valid{
-    color:#333;
-}
 
+
+
+
+
+
+
+
+
+
+/*Footer started*/
+        .footer {
+            padding: 70px 20px 15px;
+
+            background-color: black;
+            color: white;
+        }
+
+        .footer-logo {
+            width: 80px;
+            margin-top: 5px;
+            margin-bottom: 5x;
+            border-radius: 50%;
+        }
+
+        .footer h4 {
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .footer p {
+            font-size: 12px;
+            text-align: justify;
+            padding-right: 35px;
+        }
+
+        .footer .row .fa {
+            padding-right: 20px;
+            font-size: 15px;
+        }
+
+        .footer hr {
+            margin-top: 10px;
+            background: lightgrey;
+        }
+
+        .fa-heart {
+            margin: 0 5px;
+            color: red;
+        }
+
+        .fa-facebook {
+            color: blue;
+
+        }
+
+        .footer .copyright {
+            text-align: center;
+        }
+
+        .fa-youtube {
+            color: red;
+        }
+
+        .fa-instagram {
+            color: rgb(236, 16, 53);
+        }
+
+        .fa-phone {
+            color: green;
+        }
+
+        .fa-envelope {
+            color: brown;
+        }
+
+        .fa-home {
+            color: cadetblue;
+        }
+
+        /*footer end*/
