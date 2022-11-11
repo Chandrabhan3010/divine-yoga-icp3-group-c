@@ -1,2 +1,103 @@
+/*head started*/
+.head-img{
+    height: fit-content;
+    width: 100%;
+}
+.slider-img{
+   
+}
+.carousel-item{
+    height: 600px;
+}
+.icon{
+  
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+}
+/*head end*/
 
-/*stylesheet*/
+
+
+
+
+
+
+
+
+
+
+
+/*Footer started*/
+        .footer {
+            padding: 70px 20px 15px;
+
+            background-color: black;
+            color: white;
+        }
+
+        .footer-logo {
+            width: 80px;
+            margin-top: 5px;
+            margin-bottom: 5x;
+            border-radius: 50%;
+        }
+
+        .footer h4 {
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .footer p {
+            font-size: 12px;
+            text-align: justify;
+            padding-right: 35px;
+        }
+
+        .footer .row .fa {
+            padding-right: 20px;
+            font-size: 15px;
+        }
+
+        .footer hr {
+            margin-top: 10px;
+            background: lightgrey;
+        }
+
+        .fa-heart {
+            margin: 0 5px;
+            color: red;
+        }
+
+        .fa-facebook {
+            color: blue;
+
+        }
+
+        .footer .copyright {
+            text-align: center;
+        }
+
+        .fa-youtube {
+            color: red;
+        }
+
+        .fa-instagram {
+            color: rgb(236, 16, 53);
+        }
+
+        .fa-phone {
+            color: green;
+        }
+
+        .fa-envelope {
+            color: brown;
+        }
+
+        .fa-home {
+            color: cadetblue;
+        }
+
+        /*footer end*/
