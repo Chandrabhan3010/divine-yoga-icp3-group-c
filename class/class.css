@@ -1,11 +1,12 @@
 
 html{
-    height: 350vh;
+    background-color: #ffffff;
+    
 }
 
 .container{
     background-color:#ffff;
-    height: 380vh;
+    height: 370vh;
 }
 
 body {
@@ -19,22 +20,90 @@ body {
     display: block;  
 }
 
+.bg-color {
+    background: rgb(225, 250, 225);
+    color: black;
+    height: 100px;
+}
 
-.card{
 
-    width: 200%;
-    height: 900%;
-    border: 4px solid rgb(7, 7, 10);
-
+.nav-link {
+    color: rgb(12, 9, 9);
 
 }
+
+.nav-item a {
+    font-weight: 700;
+
+}
+
+.nav-item a:hover {
+    color: #01b1d7;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    border-radius: 50%;
+}
+
+.fa-fa-moon {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 2px grey;
+}
+
+.fa-fa-sun {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 2px grey;
+}
+
+#topbar li a:hover,
+#topbar li a.active {
+    color: #088178;
+
+}
+
+#topbar li a.active::after,
+#topbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/*=======End of the Navbar===========*/
+
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+}
+
+
 
 .img-card{
     display: inline-block;
     width: 500px;
-    border-radius: 20px;
-    box-shadow: -1px 1px 20px 2px rgb(10, 10, 10);
-    border: 3px solid ;
+    border-radius: 2px;
+    box-shadow: -1px 1px 20px 2px rgb(254, 163, 239);
+    border: 2px solid rgb(153, 206,252) ;
    
 
 }
@@ -99,6 +168,16 @@ body {
     border: 2px solid rgb(153, 206,252);
 
 }
+
+
+.cols-1{
+
+    margin-left: 570px;
+
+}
+
+
+
 
 
 
