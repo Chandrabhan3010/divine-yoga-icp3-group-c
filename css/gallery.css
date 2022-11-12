@@ -7,7 +7,7 @@
     padding-bottom: 0 !important;
 }
 .no-gutters{
-    margin-right: 0;
+    margin-right: 0px;
     margin-left: 0;
 }
 .no-gutters > .col,
@@ -53,10 +53,14 @@
 }
 .project{
     position:relative;
+    margin-left: 15px;
+    margin-bottom: 10px;
     width: 100;
     display: block;
     overflow: hidden;
     z-index: 0;
+    box-shadow:-1px 1px 10px 1px rgb(249, 73, 161);
+    ;
 }
 .project::after{
     position: absolute;
@@ -137,6 +141,13 @@
 .project:hover .text{
     opacity:1;
     bottom:0;
+}
+.info{
+    margin-left:100px;
+    height: 20px;
+}
+.back{
+    margin-left: 1000px;
 }
 
 
