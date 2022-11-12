@@ -8,17 +8,23 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/e872ba44e8.js" crossorigin="anonymous"></script>
     <style>
+
+
+/*
         .col-6 {
             border: 1px solid black;
 
 
         }
+
         .input-box {
             border: none;
-            border-bottom: 2px solid rgb(20, 19, 19);
+            border: 2px solid rgb(20, 19, 19);
+            width: 400px;
+            margin-left: 40px;
         }
 
         #contact-img {
@@ -27,85 +33,55 @@
         }
 
         #con-form {
-           
+
             width: 500px;
             width: 500px;
             margin-left: 90px;
-            border: 1px solid black;
+           
         }
+*/
 
-        /*Footer started*/
-        .footer {
-            padding: 70px 20px 15px;
+.webform input,
+button#submit-button {
+  height: calc(2.25rem + 20px);
+}
 
-            background-color: black;
-            color: white;
-        }
+.form-control {
+  border-radius: var(--border-radius-small);
+  margin: 1.3rem 0;
+}
 
-        .footer-logo {
-            width: 80px;
-            margin-top: 5px;
-            margin-bottom: 5x;
-            border-radius: 50%;
-        }
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--dark-color);
+}
 
-        .footer h4 {
-            text-align: left;
-            margin-top: 15px;
-            margin-bottom: 25px;
-        }
+button#submit-button {
+  background: black;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-        .footer p {
-            font-size: 12px;
-            text-align: justify;
-            padding-right: 35px;
-        }
+button#submit-button:hover {
+  background: gray;
+}
 
-        .footer .row .fa {
-            padding-right: 20px;
-            font-size: 15px;
-        }
+.contact h2 + p {
+  max-width: 90%;
+}
 
-        .footer hr {
-            margin-top: 10px;
-            background: lightgrey;
-        }
+.google-map {
+  border-top: 1px solid #efebeb;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+}
 
-        .fa-heart {
-            margin: 0 5px;
-            color: red;
-        }
-
-        .fa-facebook {
-            color: blue;
-
-        }
-
-        .footer .copyright {
-            text-align: center;
-        }
-
-        .fa-youtube {
-            color: red;
-        }
-
-        .fa-instagram {
-            color: rgb(236, 16, 53);
-        }
-
-        .fa-phone {
-            color: green;
-        }
-
-        .fa-envelope {
-            color: brown;
-        }
-
-        .fa-home {
-            color: cadetblue;
-        }
-
-        /*footer end*/
+.google-map iframe {
+  width: 100%;
+}
+        
     </style>
 </head>
 
@@ -113,6 +89,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+
+        
+<!----------------first contact--------------- 
     <div class="contact-container">
 
 
@@ -133,7 +113,10 @@
                             <input type="email" class="form-control input-box" placeholder=""><br />
                             <p class="text-center">Type your message here </p>
                             <textarea class="form-control input-box" rows="1" placeholder=""></textarea><br />
-                            <button type="button" class="btn btn-outline-warning ">Warning</button>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                               
+                                <button class="btn btn-primary" type="button">Send</button>
+                              </div>
                         </form>
                     </div>
                 </div>
@@ -146,7 +129,56 @@
     </div>
 
     </div>
-<br><br>
+    <br><br>
+
+
+    
+    
+--------------first contact----------------> 
+<div class="contact section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="ml-auto col-lg-5 col-md-6 col-12">
+                <h2 style="font-family: 'Lora', serif; letter-spacing: 2px;" class="mb-4 pb-2" data-aos="fade-up"
+                    data-aos-delay="200">
+                    Feel Free to ask anything
+                </h2>
+
+                <form action="#" method="post" class="contact-form webform" data-aos-delay="400" data-aos="fade-up"
+                    role="form">
+
+
+                    <input type="text" name="cf-name" class="form-control" placeholder="Name">
+                    <input type="email" name="cf-email" class="form-control" placeholder="Emails">
+                    <textarea name="cf-messgae" rows="5" class="form-control" placeholder="Message"></textarea>
+                    <button type="submit" class="form-control" id="submit-button" name="submit">Send
+                        Message</button>
+                </form>
+            </div>
+
+            <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+                <h2 style="font-family: 'Lora', serif; letter-spacing: 2px;" class="mb-4" data-aos="fade-up"
+                    data-aos-delay="600">
+                    Where you can <span>find us</span>
+                </h2>
+                <p data-aos="fade-up" data-aos-delay="800">
+                    <i class="fa fa-map-marker mr-1"></i> Wardha Rd
+                    Wardha Rd,<br> Nagpur, Maharashtra 440015, India
+                </p>
+                <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d70821.28454773827!2d79.03600556891345!3d21.109166423260742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf7a2ea4657b%3A0x2513061f0d5aa958!2sWardha%20Rd%2C%20Nagpur%2C%20Maharashtra%20440015!5e0!3m2!1sen!2sin!4v1668278098575!5m2!1sen!2sin"
+                        width="1920" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
     <div class="footer">
         <div class="container">
 
