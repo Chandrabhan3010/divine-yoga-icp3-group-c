@@ -1,20 +1,27 @@
 /*=======Navbar===========*/
 .bg-color{
-    background: white;
+    background: rgb(225, 250, 225);
     color: #000;
 }
 .nav-link{
     color: #000;
 }
+.nav-item a{
+    font-weight:500;
+   
+}
 .nav-item a:hover{
     color:#01b1d7;
-    font-weight: bold;
+    text-decoration: none;
 }
 .navbar-brand{
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
+    
+}
+.moon{
     text-decoration: none;
+    color: black;
+    margin-top: 13px;
+    box-shadow: 2px grey;
 }
 /*=======End of the Navbar===========*/
 
