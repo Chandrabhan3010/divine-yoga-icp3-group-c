@@ -16,53 +16,9 @@
 
 
         }
-
-
-        .contactus-title {
-            padding: 20px;
-            margin-top: 20px;
-            color: white;
-        }
-
-        .contactus-body {
-            background-image: url("../assets/img/contactus-background.png");
-            background-size: cover;
-        }
-
-        .contactus-btn {
-            width: 100px;
-            background-color: none;
-            color: white;
-        }
-
-        .contactus-cancel-btn {
-            width: 100px;
-            margin-left: 60px;
-            background-color: none;
-            color: white;
-        }
-
-        .contactus-msg-box {
-            margin-left: 180px;
-            width: 350px;
-            padding: 40px;
-            background-color: white;
-            border-radius: 5px;
-        }
-
         .input-box {
             border: none;
-            border-bottom: 2px solid black;
-        }
-
-        .contact-details {
-            padding: 10px;
-            color: white;
-        }
-
-        .contact-link {
-            margin-left: 50px;
-            color: white;
+            border-bottom: 2px solid rgb(20, 19, 19);
         }
 
         #contact-img {
@@ -75,6 +31,10 @@
             width: 500px;
             width: 500px;
             margin-left: 90px;
+            border: 1px solid black;
+        }
+        .form-label{
+            
         }
 
         /*Footer started*/
@@ -170,14 +130,13 @@
                     <div class="container-head-txt mb-5">
                         <h3 class="text-center"> Send Message</h3>
                         <form id="con-form">
-                            <input type="name" class="form-control mt-4 input-box" placeholder="Full Name"><br />
-                            <input type="email" class="form-control input-box" placeholder="Email"><br />
-                            <label for="text" class="form-label">Type your Message...</label>
-                            <textarea class="form-control input-box" rows="1" placeholder="Text"></textarea><br />
-                            <button type="button" class="btn btn-light contactus-btn" id="text"> <a href="./index.html"
-                                    style="text-decoration: none; color: black;">Send</a></button>
-                            <button type="button" class="btn btn-light contactus-cancel-btn" id="text"><a
-                                    href="./index.html" style="text-decoration: none; color: black;">Cancel</a></button>
+                            <p class="text-center">Enter your name</p>
+                            <input type="name" class="form-control  input-box" placeholder=""><br />
+                            <p class="text-center">Enter your gmail</p>
+                            <input type="email" class="form-control input-box" placeholder=""><br />
+                            <p class="text-center">Type your message here </p>
+                            <textarea class="form-control input-box" rows="1" placeholder=""></textarea><br />
+                            <button type="button" class="btn btn-outline-warning ">Warning</button>
                         </form>
                     </div>
                 </div>
