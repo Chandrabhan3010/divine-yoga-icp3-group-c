@@ -1,22 +1,42 @@
-/*head started*/
-.head-img{
-    height: fit-content;
-    width: 100%;
+/*=======Navbar===========*/
+.bg-color{
+    background: white;
+    color: #000;
 }
-.slider-img{
-   
+.nav-link{
+    color: #000;
 }
-.carousel-item{
-    height: 600px;
+.nav-item a:hover{
+    color:#01b1d7;
+    font-weight: bold;
 }
-.icon{
-  
+.navbar-brand{
     color: black;
-    cursor: pointer;
-    display: flex;
-    justify-content: right;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
 }
-/*head end*/
+/*=======End of the Navbar===========*/
+
+
+
+
+/*=======Hero Section===========*/
+.slide-1,
+.slide-2,
+.slide-3{
+    min-height: 100vh;
+    clip: path 0; ;
+}
+.slide-1{
+    background: linear-gradient(to right, rgba(2,79,99,0.9),
+    rgba(5,1,52,0.5)), url(./pexels-prasanth-inturi-1051838.jpg) center /cover fixed no-repeat;
+}
+
+.no-padding{
+    padding:0;
+}
+/*=======End of the Hero Section===========*/
 
 
 
