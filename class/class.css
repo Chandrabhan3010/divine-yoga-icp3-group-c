@@ -31,10 +31,10 @@ body {
 
 .img-card{
     display: inline-block;
-    width: 400px;
+    width: 500px;
     border-radius: 20px;
-    box-shadow: -1px 1px 20px 2px rgb(254,163,239);
-    border: 2px solid rgb(153, 206,252);
+    box-shadow: -1px 1px 20px 2px rgb(10, 10, 10);
+    border: 3px solid ;
    
 
 }
@@ -83,11 +83,13 @@ body {
 .enroll {
     width: 350px;
     margin-bottom: 10px;
+    border-radius: 50px;
     
 }
 
 .col-md-6{
     display:inline-flex;
+    box-shadow: #212529;
 }
 
 .row{
@@ -97,6 +99,7 @@ body {
     border: 2px solid rgb(153, 206,252);
 
 }
+
 
 
 
