@@ -248,7 +248,9 @@ section {
 .home #slide-prev {
   left: 2rem;
 }
-
+.content{
+  margin-left:120px;
+}
 .banner-container {
   display: -ms-grid;
   display: grid;
@@ -360,3 +362,6 @@ section {
   }
 }
 /*# sourceMappingURL=style.css.map */
+.back{
+  margin-left: 1000px;
+}
