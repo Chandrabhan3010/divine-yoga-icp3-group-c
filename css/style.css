@@ -72,6 +72,86 @@ body{
 /*=======End of the Hero Section===========*/
 
 
+/* section 5 - classes */
+
+.style-cards h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.style-cards h3 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.card-2,
+.card-3 {
+    border-top: 5px rgb(129, 123, 123) solid;
+    padding: 50px;
+}
+
+.card-3 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 60% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.desc-3 {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.card-3 img {
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card-3 video {
+    position: relative;
+    top: -13px;
+    left: 3px;
+    width: 109%;
+    height: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card-2 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 60%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.desc-2 {
+    padding-left: 100px;
+}
+
+.card-2 img {
+    width: 110%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.card-2 video {
+    position: relative;
+    top: -13px;
+    left: 3px;
+    width: 109%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+/*classs ends*/
 
 
 
