@@ -1,7 +1,39 @@
 body{
     background-color: none ;
 }
-/*=======Navbar===========*/
+.btn{
+    background-color: #89d6a3;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: #62de8b;
+}
+/*===========new navbar========*/
+.navbar-brand{
+  
+    font-weight: bold;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.nav-item a:hover{
+    color: rgb(245, 142, 7);
+    cursor: pointer;
+    
+}
+.logo-img{
+    border-radius: 50%;
+}
+.navbar{
+    background-color:#89d6a3;
+}
+/*=========new navbar============*/
+/*=======Navbar===========
 .bg-color {
     background: rgb(225, 250, 225);
     color: #000;
@@ -20,7 +52,7 @@ body{
     color: #01b1d7;
     text-decoration: none;
 }
-
+ 
 .navbar-brand {
     border-radius: 50%;
 }
@@ -48,7 +80,7 @@ body{
     left: 20px;
 }
 
-/*=======End of the Navbar===========*/
+=====End of the Navbar===========*/
 
 
 
@@ -72,6 +104,33 @@ body{
 }
 
 /*=======End of the Hero Section===========*/
+/* section 2 started */
+.ftco-section {
+    padding: 25px;
+    position: relative;
+}
+
+
+.offer-deal {
+    width: 100%;
+}
+
+.offer-deal .img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.offer-deal .text h3 {
+    font-size: 30px;
+}
 
 
 /* section 5 - classes */
@@ -168,8 +227,8 @@ body{
 .footer {
     padding: 70px 20px 15px;
 
-    background-color: black;
-    color: white;
+    background-color: #89d6a3;
+    color: black;
 }
 
 .footer-logo {
@@ -198,7 +257,7 @@ body{
 
 .footer hr {
     margin-top: 10px;
-    background: lightgrey;
+    background: black;
 }
 
 .fa-heart {
