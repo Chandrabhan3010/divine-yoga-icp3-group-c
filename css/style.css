@@ -1,5 +1,5 @@
 body{
-    background-color:  ;
+    background-color: none ;
 }
 /*=======Navbar===========*/
 .bg-color {
@@ -21,7 +21,9 @@ body{
     text-decoration: none;
 }
 
-.navbar-brand {}
+.navbar-brand {
+    border-radius: 50%;
+}
 
 .moon {
     text-decoration: none;
