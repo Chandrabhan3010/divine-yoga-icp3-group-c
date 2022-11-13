@@ -1,7 +1,29 @@
 body{
     background-color: none ;
 }
-/*=======Navbar===========*/
+/*===========new navbar========*/
+.navbar-brand{
+  
+    font-weight: bold;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.nav-item a:hover{
+    color: rgb(245, 142, 7);
+    cursor: pointer;
+    
+}
+.logo-img{
+    border-radius: 50%;
+}
+.navbar{
+    background-color:#89d6a3;
+}
+/*=========new navbar============*/
+/*=======Navbar===========
 .bg-color {
     background: rgb(225, 250, 225);
     color: #000;
@@ -20,7 +42,7 @@ body{
     color: #01b1d7;
     text-decoration: none;
 }
-
+ 
 .navbar-brand {
     border-radius: 50%;
 }
@@ -48,7 +70,7 @@ body{
     left: 20px;
 }
 
-/*=======End of the Navbar===========*/
+=====End of the Navbar===========*/
 
 
 
@@ -168,8 +190,8 @@ body{
 .footer {
     padding: 70px 20px 15px;
 
-    background-color: black;
-    color: white;
+    background-color: #89d6a3;
+    color: black;
 }
 
 .footer-logo {
