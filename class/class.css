@@ -51,8 +51,8 @@ body {
 
 .card{
     border-radius: 2px;
-    box-shadow: -1px 1px 20px 2px rgb(254, 163, 239);
-    border: 2px solid rgb(153, 206,252) ;
+    box-shadow:-1px 1px 1px 1px rgb(249, 73, 161);
+    border: 2px solid rgb(2, 66, 9) ;
     height: 300px;
     display: flex;
     width: 450px;
