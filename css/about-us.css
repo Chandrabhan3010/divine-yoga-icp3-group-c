@@ -46,6 +46,7 @@ h2:after {
 }
 .about-box:hover{
     box-shadow: 0 10px 29px 0 rgba(83, 210, 245, 10);
+   
 }
 .about-box .about-top{
     height: 156px;
@@ -77,28 +78,28 @@ h2:after {
     margin: 12px;
 }
 .about-box.first .about-top{
-    background-color: #09aef0;
+    background-color:  #89d6a3;
     
 }
 
 .about-box.second .about-top{
-    background-color: #41baeb;
+    background-color:  #89d6a3;
     
 }
 .about-box.third .about-top{
-    background-color: #05c8eb;
+    background-color:  #89d6a3;
     
 }
 .about-box.forth .about-top{
-    background-color: #0399f0;
+    background-color: #89d6a3;
     
 }
 .about-box.fifth .about-top{
-    background-color: #41baeb;
+    background-color:  #89d6a3;
 }
    
     .about-box.six .about-top{
-        background-color: #05c8eb;
+        background-color:  #89d6a3;
         
     
 }
