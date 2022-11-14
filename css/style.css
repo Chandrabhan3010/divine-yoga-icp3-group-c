@@ -1,3 +1,10 @@
+.bg-light{
+    background-color: white;
+}
+.bg-dark{
+    background-color: black;
+}
+
 body{
     background-color: none ;
 }
@@ -22,7 +29,7 @@ body{
     margin-left: 20px;
 }
 .nav-item a:hover{
-    color: rgb(245, 142, 7);
+    color:white;
     cursor: pointer;
     
 }
@@ -30,7 +37,7 @@ body{
     border-radius: 50%;
 }
 .navbar{
-    background-color:#89d6a3;
+    background-color:#b4e4c4;
 }
 /*=========new navbar============*/
 /*=======Navbar===========
