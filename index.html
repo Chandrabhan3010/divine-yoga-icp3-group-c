@@ -14,6 +14,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="/script/main.js">
+<!--
+  <script>
+    function dark(){
+    document.getElementById("Navbar").className = "   bg-nav-dark nav" ;
+}
+function light(){
+    document.getElementById("bg-nav-dark").className = "Navbar    " ;
+}
+
+  </script>-->
 </head>
 
 <bodyc class="main-container">
@@ -23,7 +33,7 @@
 
   <!--Navbar-->
 
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm" id="Navbar">
     <div class="container-fluid">
       <a class="navbar-brand ms-md-5 ps-md-5 d-flex align-items-center" href="/">
         <img src="./assest/icons/divine yoga.jpg" class="me-2" height="40px" class="logo-img">Divine Yoga</a>
@@ -39,8 +49,8 @@
           <li class="nav-item"><a href="/pages/gallery.html">Gallery</a></li>
           <li class="nav-item"><a href="/pages/about-us.html">About</a></li>
           <li class="nav-item"><a href="/pages/contact.html">Contact</a></li>
-          <li class="nav-item"><a href="#"><i class="fa fa-moon" onclick="dark()"></i></a></li>
-          <li class="nav-item"><a href="#"><i class="fa fa-sun" onclick="light()"></i></a></li>
+          <li class="nav-item"><i class="fa fa-moon" onclick="dark()"></i></li>
+          <li class="nav-item"><i class="fa fa-sun" onclick="light()"></i> </li>
 
         </ul>   
 

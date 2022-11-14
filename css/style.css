@@ -1,6 +1,9 @@
 .bg-nav-dark{
     background-color: black;
+    color: white;
+    text-decoration: none;
 }
+.bg-n
 body{
     background-color: none ;
 }
@@ -23,6 +26,13 @@ body{
     text-decoration: none;
     color: black;
     margin-left: 20px;
+}
+.nav-item i{
+    margin-left: 20px;
+}
+.navbar i:hover{
+    color:white;
+    cursor: pointer;
 }
 .nav-item a:hover{
     color:white;
