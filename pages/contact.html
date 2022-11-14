@@ -12,8 +12,6 @@
     <script src="https://kit.fontawesome.com/e872ba44e8.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-    
-
         .webform input,
         button#submit-button {
             height: calc(2.25rem + 20px);
@@ -24,8 +22,8 @@
             margin: 1.3rem 0;
         }
 
-        .form-control{
-            
+        .form-control {
+
             border-color: black;
         }
 
@@ -85,8 +83,8 @@
 
     <br><br>
 
-    
-<!--------------first contact---------------->
+
+    <!--------------first contact---------------->
     <div class="contact section" id="contact">
         <div class="container">
             <div class="row">
@@ -96,15 +94,14 @@
                         Feel Free to ask anything
                     </h2>
 
-                    <form  onsubmit="sendEmail()" reset(); return flase;>
+                    <form onsubmit="sendEmail()" reset(); return flase;>
 
 
                         <input type="text" class="form-control" placeholder="Enter your name" id="name">
-                        <input type="email"  class="form-control" placeholder="Enter your emails" id="email">
-                        <textarea  rows="5" class="form-control" id="message"
-                            placeholder="Type message...."></textarea>
+                        <input type="email" class="form-control" placeholder="Enter your emails" id="email">
+                        <textarea rows="5" class="form-control" id="message" placeholder="Type message...."></textarea>
                         <div class="text-center">
-                           <button class="btn" type="submit">Send Message</button>
+                            <button class="btn" type="submit">Send Message</button>
                         </div>
                     </form>
                 </div>
@@ -177,23 +174,22 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-      <script src="https://smtpjs.com/v3/smtp.js"></script>  
-      <script>
-        function sendEmail(){
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
             Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
+                secureToken: "e7b8ddde-7d8d-4296-a2ef-ce079398cfe4",
+    
+    To: 'punamrajput777999@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "Contact enquiry from divine yoga",
+                Body: "Name :" + document.getElementById("name").value + "<br> Email : " + document.getElementById("name").value + "<br> Message : " + document.getElementById("message").value
+            }).then(
+                message => alert("Message Sent Succesfully 😊")
+            );
         }
-          
-      </script>
+
+    </script>
 </body>
 
 </html>
