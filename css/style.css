@@ -1,10 +1,6 @@
-.bg-light{
-    background-color: white;
-}
-.bg-dark{
+.bg-nav-dark{
     background-color: black;
 }
-
 body{
     background-color: none ;
 }
