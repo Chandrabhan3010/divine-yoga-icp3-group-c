@@ -17,6 +17,19 @@ body{
 .btn:hover{
     background-color: #62de8b;
 }
+
+
+/*=============blog cards======*/
+.card{
+    margin-left: 100px;
+    border: none;
+    box-shadow: gray 2px 2px 2px 2px;
+}
+.card:hover{
+    box-shadow: 0px 0px 0px 0px none;
+    cursor: pointer;
+}
+/*=============blog cards end======*/
 /*===========new navbar========*/
 .navbar-brand{
   
