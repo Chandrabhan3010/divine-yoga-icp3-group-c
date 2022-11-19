@@ -41,7 +41,13 @@
         .google-map iframe {
             width: 100%;
         }
+
     </style>
+    <script>
+     function sucessful(){
+        alert("your massage sent succesfully ☺ !")
+     }
+    </script>
 </head>
 
 <body>
@@ -89,7 +95,7 @@
         <div class="container">
             <div class="row">
                 <div class="ml-auto col-lg-5 col-md-6 col-12">
-                    <h2 style="font-family: 'Lora', serif; letter-spacing: 2px;" class="mb-4 pb-2" data-aos="fade-up"
+                    <h2  class="mb-4 pb-2" data-aos="fade-up"
                         data-aos-delay="200">
                         Feel Free to ask anything
                     </h2>
@@ -97,17 +103,17 @@
                     <form onsubmit="sendEmail()" reset(); return flase;>
 
 
-                        <input type="text" class="form-control" placeholder="Enter your name" id="name">
-                        <input type="email" class="form-control" placeholder="Enter your emails" id="email">
+                        <input type="text" class="form-control" placeholder="Enter your name" id="name" required>
+                        <input type="email" class="form-control" placeholder="Enter your emails" id="email" required>
                         <textarea rows="5" class="form-control" id="message" placeholder="Type message...."></textarea>
                         <div class="text-center">
-                            <button class="btn" type="submit">Send Message</button>
+                            <button class="btn" type="submit" onclick="sucessful()">Send Message</button>
                         </div>
                     </form>
                 </div>
 
                 <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
-                    <h2 style="font-family: 'Lora', serif; letter-spacing: 2px;" class="mb-4" data-aos="fade-up"
+                    <h2  class="mb-4" data-aos="fade-up"
                         data-aos-delay="600">
                         Where you can <span>find us</span>
                     </h2>
@@ -173,7 +179,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
+<!---
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         function sendEmail() {
@@ -189,7 +195,7 @@
             );
         }
 
-    </script>
+    </script>-->
 </body>
 
 </html>
