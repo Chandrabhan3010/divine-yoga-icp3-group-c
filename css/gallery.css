@@ -59,7 +59,7 @@
     display: block;
     overflow: hidden;
     z-index: 0;
-    box-shadow:-1px 1px 10px 1px rgb(249, 73, 161);
+    box-shadow:-1px 1px 10px 1px rgb(187, 185, 186);
     ;
 }
 .project::after{
@@ -69,7 +69,7 @@
     right:0;
     bottom: 0;
     content:"";
-    background:darkturquoise;
+    background:#acccb6;
     opacity:0;
     z-index:1;
     transition: all 0.3s ease;
